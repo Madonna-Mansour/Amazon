@@ -16,7 +16,7 @@ const RegisterPage = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredtial) => {
         console.log(userCredtial);
-        navigate("/Login");
+        navigate("/Home");
         setEmail("");
         setPassword("");
       })
